@@ -2,8 +2,8 @@
 
 void main () {
 
-  long int x;
-  long int y;
+  int x;
+  int y;
 
   printf("2 ist eine Primzahl\n");
 
@@ -13,7 +13,7 @@ void main () {
         break;
       };
       if (x==y) {
-        printf("%ld\n", x);
+        printf("%d\n", x);
       };
     };
   };
